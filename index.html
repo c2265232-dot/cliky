@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliky - Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎮 Cliky</h1>
+            <p class="subtitle">Click to earn coins!</p>
+        </div>
+
+        <div class="game-container">
+            <div class="stats">
+                <div class="stat">
+                    <span class="label">Coins:</span>
+                    <span class="value" id="coins">0</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Per Second:</span>
+                    <span class="value" id="cps">0</span>
+                </div>
+            </div>
+
+            <button class="click-button" id="clickBtn">CLICK ME!</button>
+
+            <div class="upgrade-section">
+                <h2>Upgrades</h2>
+                <div class="upgrades-grid" id="upgradesGrid">
+                    <!-- Upgrades will be inserted here -->
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <button class="reset-btn" id="resetBtn">Reset Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
